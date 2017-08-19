@@ -30,7 +30,7 @@ public class Equilibrium {
     }
 
 public static void main(String[] args) {
-    Extreme sol = new Extreme();
+    Equilibrium sol = new Equilibrium();
     int A[] = {-1, 3, -4, 5, 1, -6, 2, 1};
         System.out.println(sol.solution(A));
 }
