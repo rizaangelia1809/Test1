@@ -1,4 +1,10 @@
-class Solution {
+package Test1;
+
+/**
+ *
+ * @author angelia
+ */
+class MissingInteger {
     public int solution(int[] A) {
         int n = A.length;
         int [] buffer = new int[n];
@@ -27,7 +33,7 @@ class Solution {
         return n + 1;
     }
     public static void main (String[] args) {
-        Solution sol = new Solution();
+        MissingInteger sol = new MissingInteger();
         int [] arr = {-2, -1, 2, 4, 6, 3, 8};
         System.out.println(sol.solution(arr));
     }
